@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<!-- Modifies combat proficiency for zizka, toth, and erik. 1 is the highest. Istvan went from 0.55 to 0.7 because he's a rat and I dont think he'd be as proficient as erik or zizka -->
+<database xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="barbora" xsi:noNamespaceSchemaLocation="../database.xsd">
+	<souls>
+		<soul brain_id="4b914d1c-724a-a92d-3e6b-d183d35b8b98" combat_level="0.7" digestion_multiplier="0" factionName="trosecko_badGuys" initial_clothing_dirt="0" skald_character_name="char_ISTVAN_TOTH" social_class_id="61" soul_archetype_id="0" soul_id="46c0e15f-70b6-4898-55ef-d8984d5715a9" soul_name="ttro_pista" soul_vip_class_id="0" xp_multiplier="0" />
+		<soul brain_id="4b914d1c-724a-a92d-3e6b-d183d35b8b98" combat_level="1" digestion_multiplier="0" factionName="players_friends_zizka" initial_clothing_dirt="0" skald_character_name="char_JAN_ZIZKA" social_class_id="33" soul_archetype_id="0" soul_id="4a705738-fd86-23bd-5eb9-ee16d727038a" soul_name="tneb_zizka" soul_vip_class_id="31" unique="true" xp_multiplier="0" />
+		<soul brain_id="4b914d1c-724a-a92d-3e6b-d183d35b8b98" combat_level="1" digestion_multiplier="0" factionName="trosecko_badGuys" initial_clothing_dirt="0" skald_character_name="char_ERIK" social_class_id="61" soul_archetype_id="0" soul_id="4c4222fb-413e-e667-4958-38c4ee351daf" soul_name="ttro_erik" soul_vip_class_id="31" unique="true" xp_multiplier="0" />
+		<soul brain_id="4b914d1c-724a-a92d-3e6b-d183d35b8b98" combat_level="1" digestion_multiplier="0" factionName="kutnohorsko_allies_newBuddies_suchyCert" initial_clothing_dirt="0" skald_character_name="char_SUCHY_CERT" social_class_id="33" soul_archetype_id="0" soul_id="bd672e35-7841-4e0f-be10-4cbaccf16cda" soul_name="kcer_suchyCert" soul_vip_class_id="31" xp_multiplier="0"/>
+	</souls>
+</database>

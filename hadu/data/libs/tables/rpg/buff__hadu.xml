@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- introduces new buffs to better tune duel difficulty -->
+<database xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="barbora" xsi:noNamespaceSchemaLocation="../database.xsd">
+    <buffs version="1">
+        <buff buff_class_id="15" buff_exclusivity_id="1" buff_id="b5b1b9bd-4341-466f-abf8-0b9361ec09bd" buff_lifetime_id="1" buff_name="quest_duel_buff_low" buff_params="vitality=30,defense*1.5,agility*1.5,strength*1.5,weapon_sword*1.5" duration="-1" implementation="Cpp:Constant" is_persistent="false"/>
+        <buff buff_class_id="15" buff_exclusivity_id="1" buff_id="1d069187-7c15-4007-8c55-f4abae7c022b" buff_lifetime_id="1" buff_name="quest_duel_buff_med" buff_params="vitality=30,defense*2,ade*2,oad*2,agility*1.5,strength*1.5,weapon_sword*1.5" duration="-1" implementation="Cpp:Constant" is_persistent="false"/>
+        <buff buff_class_id="15" buff_exclusivity_id="1" buff_id="87d77525-adef-4844-843d-549d5e1dcbd3" buff_lifetime_id="1" buff_name="quest_duel_buff_high" buff_params="vitality=30,defense*2,ade*3,oad*2,agility*1.5,strength*1.5,weapon_sword*1.5" duration="-1" implementation="Cpp:Constant" is_persistent="false"/>    
+        <buff buff_class_id="15" buff_exclusivity_id="1" buff_id="fd4a6c03-25e0-468b-8555-8bf526caea79" buff_lifetime_id="1" buff_name="quest_duel_buff_ultra" buff_params="vitality=30,defense*2,ade*4,oad*3,agility*1.5,strength*1.5,weapon_sword*1.5" duration="-1" implementation="Cpp:Constant" is_persistent="false"/>
+        <!-- overwriting erik's default duel buff -->
+        <buff buff_class_id="15" buff_exclusivity_id="1" buff_id="d4a4ffe8-f4a3-4abe-a784-784e27c2e37c" buff_lifetime_id="1" buff_name="erik_duelBuff" buff_params="hlh*0.8,slh*0.8,ade*1.5,vitality=30,fencing=30,weapon_sword=30" duration="-1" implementation="Cpp:Constant" is_persistent="true"/>
+    </buffs>
+</database>
